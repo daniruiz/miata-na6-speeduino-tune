@@ -649,8 +649,8 @@
          6100.0 
          6300.0 
          6500.0 
-         6600.0 
-         6600.0 
+         6800.0 
+         7200.0 
       </constant>
 <constant cols="1" digits="0" name="fuelLoadBins" rows="16" units="kPa">
          16.0 
@@ -757,10 +757,10 @@
 <constant digits="0" name="missingTeeth" units="teeth">1.0</constant>
 <constant digits="0" name="crankRPM" units="rpm">400.0</constant>
 <constant digits="1" name="tpsflood" units="%">90.0</constant>
-<constant digits="0" name="SoftRevLim" units="rpm">6000.0</constant>
+<constant digits="0" name="SoftRevLim" units="rpm">7300.0</constant>
 <constant digits="0" name="SoftLimRetard" units="deg">1.0</constant>
 <constant digits="1" name="SoftLimMax" units="s">2.0</constant>
-<constant digits="0" name="hardRevLim" units="rpm">6300.0</constant>
+<constant digits="0" name="hardRevLim" units="rpm">7200.0</constant>
 <constant cols="1" digits="0" name="taeBins" rows="4" units="%/s">
          10.0 
          260.0 
@@ -952,8 +952,8 @@
          6100.0 
          6300.0 
          6500.0 
-         6500.0 
-         6500.0 
+         6800.0 
+         7200.0 
       </constant>
 <constant cols="1" digits="0" name="loadBinsAFR" rows="16" units="kPa">
          16.0 
