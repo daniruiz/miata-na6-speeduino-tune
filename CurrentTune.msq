@@ -24,6 +24,18 @@
          -0.1 
          0.0 
       </pcVariable>
+<pcVariable cols="1" digits="0" name="wueRecommended" rows="10" units="%">
+         195.0 
+         189.0 
+         182.0 
+         176.0 
+         169.0 
+         156.0 
+         140.0 
+         120.0 
+         100.0 
+         100.0 
+      </pcVariable>
 <pcVariable cols="1" digits="0" name="boardFuelOutputs" rows="128" units=" ">
          4.0 
          4.0 
@@ -458,15 +470,15 @@
 <constant name="aeApplyMode">"PW Adder"</constant>
 <constant name="multiplyMAP">"Fixed"</constant>
 <constant cols="1" digits="0" name="wueRates" rows="10" units="%">
-         179.0 
-         179.0 
-         179.0 
-         179.0 
-         163.0 
-         138.0 
-         128.0 
-         112.0 
-         108.0 
+         195.0 
+         189.0 
+         182.0 
+         176.0 
+         169.0 
+         156.0 
+         140.0 
+         120.0 
+         100.0 
          100.0 
       </constant>
 <constant digits="0" name="crankingPct" units="%">10.0</constant>
@@ -544,33 +556,33 @@
 <constant name="rtc_mode">"Off"</constant>
 <constant name="incorporateAFR">"No"</constant>
 <constant cols="1" digits="0" name="asePct" rows="4" units="%">
-         15.0 
-         15.0 
-         15.0 
+         45.0 
+         35.0 
+         30.0 
          15.0 
       </constant>
 <constant cols="1" digits="0" name="aseCount" rows="4" units="s">
-         5.0 
-         5.0 
-         5.0 
-         5.0 
+         12.0 
+         10.0 
+         7.0 
+         3.0 
       </constant>
 <constant cols="1" digits="0" name="aseBins" rows="4" units="C">
          -20.0 
-         10.0 
-         40.0 
+         15.0 
+         50.0 
          80.0 
       </constant>
 <constant cols="1" digits="1" name="primePulse" rows="4" units="ms">
-         1.0 
-         1.0 
-         1.0 
-         1.0 
+         9.0 
+         7.5 
+         6.0 
+         3.0 
       </constant>
 <constant cols="1" digits="0" name="primeBins" rows="4" units="C">
          -20.0 
-         10.0 
-         40.0 
+         20.0 
+         45.0 
          80.0 
       </constant>
 <constant name="CTPSPin">"Board Default"</constant>
@@ -587,7 +599,7 @@
          4500.0 
          6500.0 
       </constant>
-<constant digits="1" name="idleTaperTime" units="S">5.0</constant>
+<constant digits="1" name="idleTaperTime" units="S">10.0</constant>
 <constant digits="1" name="dfcoDelay" units="S">1.0</constant>
 <constant digits="0" name="dfcoMinCLT" units="C">50.0</constant>
 <constant name="vssMode">"Off"</constant>
@@ -730,7 +742,7 @@
 <page number="3" size="128">
 <constant digits="0" name="TrigAng" units="Deg">0.0</constant>
 <constant digits="0" name="FixAng" units="Deg">0.0</constant>
-<constant digits="0" name="CrankAng" units="Deg">5.0</constant>
+<constant digits="0" name="CrankAng" units="Deg">10.0</constant>
 <constant digits="0" name="TrigAngMul">10.0</constant>
 <constant name="TrigEdge">"RISING"</constant>
 <constant name="TrigSpeed">"Crank Speed"</constant>
@@ -745,7 +757,7 @@
 <constant digits="0" name="bootloaderCaps" units="level">0.0</constant>
 <constant name="resetControl">"Disabled"</constant>
 <constant name="resetControlPin">"9"</constant>
-<constant digits="0" name="SkipCycles" units="cycles">0.0</constant>
+<constant digits="0" name="SkipCycles" units="cycles">1.0</constant>
 <constant name="boostType">"Open Loop"</constant>
 <constant name="useDwellLim">"On"</constant>
 <constant name="sparkMode">"Wasted Spark"</constant>
@@ -755,7 +767,7 @@
 <constant digits="1" name="dwellrun" units="ms">4.0</constant>
 <constant digits="0" name="numTeeth" units="teeth">36.0</constant>
 <constant digits="0" name="missingTeeth" units="teeth">1.0</constant>
-<constant digits="0" name="crankRPM" units="rpm">400.0</constant>
+<constant digits="0" name="crankRPM" units="rpm">300.0</constant>
 <constant digits="1" name="tpsflood" units="%">90.0</constant>
 <constant digits="0" name="SoftRevLim" units="rpm">7300.0</constant>
 <constant digits="0" name="SoftLimRetard" units="deg">1.0</constant>
@@ -774,16 +786,16 @@
          70.0 
       </constant>
 <constant cols="1" digits="0" name="wueBins" rows="10" units="C">
-         -40.0 
-         -32.0 
-         -23.0 
-         -14.0 
-         -4.0 
-         19.0 
-         32.0 
-         48.0 
-         66.0 
-         77.0 
+         -25.0 
+         -10.0 
+         0.0 
+         10.0 
+         20.0 
+         30.0 
+         45.0 
+         60.0 
+         70.0 
+         80.0 
       </constant>
 <constant digits="0" name="dwellLim" units="ms">12.0</constant>
 <constant cols="1" digits="0" name="dwellRates" rows="6" units="%">
@@ -825,18 +837,18 @@
 <constant digits="0" name="ADCFILTER_BARO" units="%">127.0</constant>
 <constant cols="1" digits="0" name="cltAdvBins" rows="6" units="C">
          -20.0 
-         10.0 
+         5.0 
          30.0 
          45.0 
          60.0 
-         80.0 
+         75.0 
       </constant>
 <constant cols="1" digits="0" name="cltAdvValues" rows="6" units="deg">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
+         5.0 
+         4.0 
+         3.0 
+         2.0 
+         1.0 
          0.0 
       </constant>
 <constant cols="1" digits="0" name="maeBins" rows="4" units="kpa/s">
@@ -1061,7 +1073,7 @@
 <constant digits="0" name="boostKI" units="%">38.0</constant>
 <constant digits="0" name="boostKD" units="%">1.0</constant>
 <constant name="lnchPullRes">"Pullup"</constant>
-<constant name="iacPWMrun">"No"</constant>
+<constant name="iacPWMrun">"Yes"</constant>
 <constant name="fuelTrimEnabled">"No"</constant>
 <constant name="flatSEnable">"No"</constant>
 <constant name="baroPin">"A12"</constant>
@@ -1123,16 +1135,16 @@
          0.0 
       </constant>
 <constant cols="1" digits="0" name="iacCrankDuty" rows="4" units="Duty %">
-         40.0 
-         0.0 
-         0.0 
-         0.0 
+         46.0 
+         46.0 
+         46.0 
+         44.0 
       </constant>
 <constant cols="1" digits="0" name="iacCrankBins" rows="4" units="C">
-         -40.0 
-         0.0 
-         20.0 
-         40.0 
+         -20.0 
+         15.0 
+         55.0 
+         85.0 
       </constant>
 <constant name="iacAlgorithm">"PWM Open loop"</constant>
 <constant name="iacStepTime">"1"</constant>
@@ -1704,16 +1716,16 @@
 </page>
 <page number="9" size="192">
 <constant cols="1" digits="0" name="crankingEnrichBins" rows="4" units="C">
-         -39.0 
-         2.0 
-         34.0 
-         83.0 
+         -20.0 
+         20.0 
+         45.0 
+         70.0 
       </constant>
 <constant cols="1" digits="0" name="crankingEnrichValues" rows="4" units="%">
-         175.0 
-         155.0 
-         130.0 
-         125.0 
+         320.0 
+         280.0 
+         220.0 
+         120.0 
       </constant>
 <constant name="rotaryType">"FC"</constant>
 <constant name="stagingEnabled">"Off"</constant>
@@ -1869,7 +1881,7 @@
 <constant digits="0" name="vvtCL0DutyAng" units="deg">270.0</constant>
 <constant digits="0" name="vvtCLMinAng" units="deg">20.0</constant>
 <constant digits="0" name="vvtCLMaxAng" units="deg">80.0</constant>
-<constant digits="1" name="crankingEnrichTaper" units="s">1.0</constant>
+<constant digits="1" name="crankingEnrichTaper" units="s">2.5</constant>
 <constant name="fuelPressureEnable">"Off"</constant>
 <constant name="oilPressureEnable">"Off"</constant>
 <constant name="oilPressureProtEnbl">"Off"</constant>
