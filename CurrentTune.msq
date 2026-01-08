@@ -481,7 +481,7 @@
 <constant digits="0" name="maeMinChange" units="kPa">2.0</constant>
 <constant name="displayB1">"RPM"</constant>
 <constant name="displayB2">"RPM"</constant>
-<constant digits="1" name="reqFuel" units="ms">12.7</constant>
+<constant digits="1" name="reqFuel" units="ms">11.7</constant>
 <constant digits="0" name="divider">2.0</constant>
 <constant name="alternate">"Alternating"</constant>
 <constant name="crkngAddCLTAdv">"No"</constant>
