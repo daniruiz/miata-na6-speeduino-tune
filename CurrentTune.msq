@@ -763,7 +763,7 @@
 <constant name="sparkMode">"Wasted Spark"</constant>
 <constant name="TrigFilter">"Weak"</constant>
 <constant name="ignCranklock">"On"</constant>
-<constant digits="1" name="dwellcrank" units="ms">6.0</constant>
+<constant digits="1" name="dwellcrank" units="ms">8.0</constant>
 <constant digits="1" name="dwellrun" units="ms">4.0</constant>
 <constant digits="0" name="numTeeth" units="teeth">36.0</constant>
 <constant digits="0" name="missingTeeth" units="teeth">1.0</constant>
