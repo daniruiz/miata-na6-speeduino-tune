@@ -4,9 +4,9 @@
 <versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2025.01.1" nPages="15" signature="speeduino 202501"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
-<pcVariable digits="0" name="rpmhigh" units="rpm">8000.0</pcVariable>
-<pcVariable digits="0" name="rpmwarn" units="rpm">3000.0</pcVariable>
-<pcVariable digits="0" name="rpmdang" units="rpm">5000.0</pcVariable>
+<pcVariable digits="0" name="rpmhigh" units="rpm">7500.0</pcVariable>
+<pcVariable digits="0" name="rpmwarn" units="rpm">6000.0</pcVariable>
+<pcVariable digits="0" name="rpmdang" units="rpm">7000.0</pcVariable>
 <pcVariable digits="0" name="maphigh" units="kPa">255.0</pcVariable>
 <pcVariable digits="0" name="mapwarn" units="kPa">200.0</pcVariable>
 <pcVariable digits="0" name="mapdang" units="kPa">245.0</pcVariable>
