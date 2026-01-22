@@ -796,19 +796,19 @@
       </constant>
 <constant cols="1" digits="0" name="iatRetBins" rows="6" units="C">
          0.0 
-         20.0 
-         30.0 
-         40.0 
          60.0 
+         80.0 
          100.0 
+         113.0 
+         125.0 
       </constant>
 <constant cols="1" digits="0" name="iatRetRates" rows="6" units="deg">
          0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
+         1.0 
+         3.0 
+         5.0 
+         7.0 
+         10.0 
       </constant>
 <constant digits="0" name="dfcoRPM" units="RPM">1500.0</constant>
 <constant digits="0" name="dfcoHyster" units="RPM">150.0</constant>
