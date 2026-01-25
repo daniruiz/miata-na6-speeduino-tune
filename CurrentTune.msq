@@ -1156,7 +1156,7 @@
 <constant name="fanInv">"No"</constant>
 <constant name="fanUnused">"Off"</constant>
 <constant name="fanPin">"Board Default"</constant>
-<constant digits="0" name="fanSP" units="C">80.0</constant>
+<constant digits="0" name="fanSP" units="C">85.0</constant>
 <constant digits="0" name="fanHyster" units="C">3.0</constant>
 <constant digits="0" name="fanFreq" units="Hz">0.0</constant>
 <constant cols="1" digits="0" name="fanPWMBins" rows="4" units="C">
