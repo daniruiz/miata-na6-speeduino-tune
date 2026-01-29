@@ -520,7 +520,7 @@
 <constant name="legacyMAP">"No"</constant>
 <constant name="baroCorr">"Off"</constant>
 <constant name="injLayout">"Paired"</constant>
-<constant name="perToothIgn">"Yes"</constant>
+<constant name="perToothIgn">"No"</constant>
 <constant name="dfcoEnabled">"Off"</constant>
 <constant digits="0" name="aeColdTaperMax" units="C">60.0</constant>
 <constant digits="0" name="dutyLim" units="%">90.0</constant>
@@ -750,7 +750,7 @@
 <constant name="TrigPattern">"4G63 / Miata / 3000GT"</constant>
 <constant name="TrigEdgeSec">"RISING"</constant>
 <constant name="fuelPumpPin">"Board Default"</constant>
-<constant name="useResync">"Yes"</constant>
+<constant name="useResync">"No"</constant>
 <constant digits="1" name="sparkDur" units="ms">1.0</constant>
 <constant name="trigPatternSec">"Single tooth cam"</constant>
 <constant name="PollLevelPol">"Low"</constant>
@@ -761,7 +761,7 @@
 <constant name="boostType">"Open Loop"</constant>
 <constant name="useDwellLim">"On"</constant>
 <constant name="sparkMode">"Wasted Spark"</constant>
-<constant name="TrigFilter">"Weak"</constant>
+<constant name="TrigFilter">"Off"</constant>
 <constant name="ignCranklock">"On"</constant>
 <constant digits="1" name="dwellcrank" units="ms">8.0</constant>
 <constant digits="1" name="dwellrun" units="ms">4.0</constant>
