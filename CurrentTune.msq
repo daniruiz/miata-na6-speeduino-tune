@@ -1028,8 +1028,8 @@
          20.0 
          35.0 
          50.0 
-         62.0 
-         91.0 
+         60.0 
+         90.0 
          120.0 
       </constant>
 <constant cols="1" digits="0" name="airDenRates" rows="9" units="%">
@@ -1039,7 +1039,7 @@
          100.0 
          95.0 
          91.0 
-         83.0 
+         88.0 
          81.0 
          74.0 
       </constant>
